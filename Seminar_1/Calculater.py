@@ -72,6 +72,9 @@ def test_calculate_discount_positive():
 def test_calculate_discount_value():
     try:
         c1.calculate_discount_2(1000, '60')
+
+    
+
     except TypeError:
         print('Тест пройден, ошибка должна возникнуть')
 
